@@ -1,4 +1,4 @@
-# Loizos Pelecanos academic website — v4
+# Loizos Pelecanos academic website — v5
 
 Deploy to the root of the GitHub repository `LPelecanos/LPelecanos.github.io`.
 
@@ -6,6 +6,7 @@ Deploy to the root of the GitHub repository `LPelecanos/LPelecanos.github.io`.
 - `index.html` — academic homepage
 - `research.html` — integrated research programme
 - `marine-offshore.html` — dedicated marine & offshore research portfolio
+- `sensing-shm.html` — distributed fibre-optic sensing & structural-health-monitoring portfolio
 - `projects.html` — selected research projects in depth
 - `leadership.html` — supervision, funding, standards and research translation
 - `publications.html` — selected bibliography and DFOS book
@@ -23,9 +24,10 @@ Deploy to the root of the GitHub repository `LPelecanos/LPelecanos.github.io`.
 ## Deploy
 Upload all files/folders to the repository root and commit. GitHub Pages will republish automatically.
 
-## v4 additions
-- Dedicated marine & offshore portfolio showing research continuity
-- Research leadership page with supervision, funding, standards and engineering translation
-- Selected projects page with mechanics → computation → evidence → decision workflow
-- Cross-linking across research, projects, leadership and publications
-- Updated sitemap and navigation
+## v5 additions
+- Dedicated Sensing & SHM portfolio page
+- Named field case studies: CERN TT10, London Bridge Station, V&A Museum, U.S. Embassy London, Farringdon O-cell test, geothermal/energy piles and steel bridge I-beams
+- Sensing → mechanics → inverse analysis → decision workflow
+- Stronger links between field monitoring, research projects, publications and leadership
+- Explicit transfer of monitoring capability toward marine/coastal infrastructure
+- Updated homepage programme cards, navigation and sitemap
