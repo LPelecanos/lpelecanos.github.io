@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://lpelecanos.github.io/sitemap.xml

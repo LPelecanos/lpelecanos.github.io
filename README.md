@@ -1,41 +1,15 @@
-# Loizos Pelecanos — Academic Website v2
+# Loizos Pelecanos academic website — v3
 
-Live target: https://lpelecanos.github.io/
+Deploy to the root of the GitHub repository `LPelecanos/LPelecanos.github.io`.
 
-## Deploy on GitHub Pages
+## Files
+- `index.html` — main academic homepage
+- `publications.html` — selected bibliography
+- `assets/styles.css` — responsive styling
+- `assets/script.js` — mobile navigation + footer year
+- `assets/loizos-pelecanos.jpg` — portrait
+- `assets/loizos-pelecanos-academic-profile.pdf` — downloadable two-page academic profile
+- `robots.txt`, `sitemap.xml`, `404.html` — SEO and GitHub Pages support
 
-Upload these items to the root of the `LPelecanos.github.io` repository, replacing the previous versions:
-
-- `index.html`
-- `assets/styles.css`
-- `assets/script.js`
-- `README.md` (optional but recommended)
-
-The repository should look like:
-
-```text
-LPelecanos.github.io/
-├── index.html
-├── README.md
-└── assets/
-    ├── styles.css
-    └── script.js
-```
-
-GitHub Pages should remain configured as:
-
-- Source: Deploy from a branch
-- Branch: `main`
-- Folder: `/ (root)`
-
-## Next customisation
-
-The hero currently uses a deliberate `LP / Add portrait` placeholder. Replace this with a professional portrait once a preferred image is supplied.
-
-A future v3 can add:
-
-- downloadable CV PDF
-- dedicated publication/project pages
-- research figures and project imagery
-- talks/media page
-- custom domain (e.g. loizospelecanos.com)
+## Deploy
+Upload all files/folders to the repository root and commit. GitHub Pages will republish automatically.
