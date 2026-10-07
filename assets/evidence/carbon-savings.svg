@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" role="img" aria-labelledby="t d">
+<title id="t">Embodied carbon savings in a reinforced concrete pile case study</title><desc id="d">A monorail bridge pile case study reported a 51.4 percent potential embodied carbon saving by adjusting design parameters, rising to 72.4 percent when coupled with cleaner materials.</desc>
+<rect width="760" height="420" rx="28" fill="#fbfaf7"/>
+<text x="52" y="54" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="800" fill="#10202d">Low-carbon foundations · quantified design potential</text>
+<text x="52" y="81" font-family="Inter,Arial,sans-serif" font-size="13" fill="#68747d">Monorail bridge pile case study · Structures (2023)</text>
+<g transform="translate(84,126)">
+  <text x="0" y="0" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="800" fill="#10202d">Embodied carbon index (baseline = 100)</text>
+  <line x1="0" y1="236" x2="590" y2="236" stroke="#b9c3c7" stroke-width="2"/>
+  <g font-family="Inter,Arial,sans-serif" text-anchor="middle">
+    <rect x="42" y="36" width="118" height="200" rx="14" fill="#84949c"/><text x="101" y="29" font-size="26" font-family="Georgia,serif" fill="#10202d">100</text><text x="101" y="263" font-size="11" fill="#68747d">baseline</text>
+    <rect x="236" y="139" width="118" height="97" rx="14" fill="#b36b32"/><text x="295" y="129" font-size="26" font-family="Georgia,serif" fill="#b36b32">48.6</text><text x="295" y="263" font-size="11" fill="#68747d">design parameters</text><text x="295" y="287" font-size="13" font-weight="800" fill="#9c5b29">51.4% saving</text>
+    <rect x="430" y="181" width="118" height="55" rx="14" fill="#0b2f4b"/><text x="489" y="171" font-size="26" font-family="Georgia,serif" fill="#0b2f4b">27.6</text><text x="489" y="263" font-size="11" fill="#68747d">+ cleaner materials</text><text x="489" y="287" font-size="13" font-weight="800" fill="#0b2f4b">72.4% saving</text>
+  </g>
+</g>
+
+</svg>

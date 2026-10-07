@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" role="img" aria-labelledby="t d">
+<title id="t">Distributed fibre optic sensing research trajectory</title><desc id="d">A timeline from Farringdon pile monitoring in 2013 through London Bridge Station, the United States Embassy and CERN in 2014, the V and A Museum in 2015, and PDE constrained inverse capacity inference in 2026.</desc>
+<rect width="760" height="420" rx="28" fill="#fbfaf7"/>
+<text x="52" y="54" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="800" fill="#10202d">Distributed sensing · from field measurements to inverse mechanics</text>
+<text x="52" y="81" font-family="Inter,Arial,sans-serif" font-size="13" fill="#68747d">Major infrastructure applications and methodological progression</text>
+<line x1="91" y1="214" x2="671" y2="214" stroke="#aab7bd" stroke-width="3"/>
+<g font-family="Inter,Arial,sans-serif" text-anchor="middle">
+  <g fill="#0b2f4b"><circle cx="105" cy="214" r="9"/><circle cx="215" cy="214" r="9"/><circle cx="325" cy="214" r="9"/><circle cx="435" cy="214" r="9"/><circle cx="545" cy="214" r="9"/></g><circle cx="655" cy="214" r="11" fill="#b36b32"/>
+  <g font-size="12" font-weight="800" fill="#10202d"><text x="105" y="146">Farringdon</text><text x="215" y="277">London Bridge</text><text x="325" y="146">U.S. Embassy</text><text x="435" y="277">CERN TT10</text><text x="545" y="146">V&amp;A Museum</text><text x="655" y="277">Inverse capacity</text></g>
+  <g font-size="11" fill="#68747d"><text x="105" y="164">O-cell pile</text><text x="215" y="295">masonry arch</text><text x="325" y="164">thermal pile</text><text x="435" y="295">tunnel</text><text x="545" y="164">tension piles</text><text x="655" y="295">PDE-constrained</text></g>
+  <g font-size="12" font-weight="800"><text x="105" y="241" fill="#68747d">2013</text><text x="215" y="192" fill="#68747d">2014</text><text x="325" y="241" fill="#68747d">2014</text><text x="435" y="192" fill="#68747d">2014</text><text x="545" y="241" fill="#68747d">2015</text><text x="655" y="192" fill="#b36b32">2026</text></g>
+</g>
+<g transform="translate(100,334)">
+  <rect x="0" y="0" width="105" height="38" rx="19" fill="#eef2f2"/><text x="52" y="24" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="800" fill="#0b2f4b">MEASURE</text>
+  <text x="125" y="25" font-family="Inter,Arial,sans-serif" font-size="16" fill="#9aacb4">→</text>
+  <rect x="150" y="0" width="105" height="38" rx="19" fill="#eef2f2"/><text x="202" y="24" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="800" fill="#0b2f4b">INTERPRET</text>
+  <text x="275" y="25" font-family="Inter,Arial,sans-serif" font-size="16" fill="#9aacb4">→</text>
+  <rect x="300" y="0" width="105" height="38" rx="19" fill="#f2e5da"/><text x="352" y="24" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="800" fill="#9c5b29">INFER</text>
+  <text x="425" y="25" font-family="Inter,Arial,sans-serif" font-size="16" fill="#9aacb4">→</text>
+  <rect x="450" y="0" width="105" height="38" rx="19" fill="#0b2f4b"/><text x="502" y="24" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="800" fill="#fff">DECIDE</text>
+</g>
+</svg>
