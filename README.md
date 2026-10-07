@@ -1,3 +1,9 @@
+# Loizos Pelecanos academic website — v7
+
+Version 7 adds a quantitative **Evidence & Impact** layer: offshore-wind natural-frequency evidence, long-term cyclic validation depth, hydrodynamic validation breadth, landmark DFOS/SHM field programmes, and reproducible optimisation evidence.
+
+Deploy by uploading all files and folders to the root of the `LPelecanos.github.io` repository.
+
 # Loizos Pelecanos academic website — v6
 
 Deploy to the root of the GitHub repository `LPelecanos/LPelecanos.github.io`.
