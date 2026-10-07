@@ -3,13 +3,16 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Loizos Pelecanos | Civil Engineering, Geotechnics & Structural Dynamics</title>
-  <meta name="description" content="Academic website of Dr Loizos Pelecanos, Honorary Lecturer at the University of Bath. Research in computational mechanics, geotechnics, earthquake engineering, soil-structure interaction, offshore and marine infrastructure, structural health monitoring and AI/ML." />
-  <meta name="keywords" content="Loizos Pelecanos, University of Bath, civil engineering, computational geotechnics, earthquake engineering, soil-structure interaction, offshore engineering, marine infrastructure, structural dynamics, finite element analysis" />
+  <title>Loizos Pelecanos | Computational Civil Engineering</title>
+  <meta name="description" content="Independent academic website of Dr Loizos Pelecanos: computational mechanics, geotechnics, structural dynamics, earthquake engineering, soil–structure interaction, offshore and marine infrastructure, sensing, optimisation and AI/ML." />
+  <meta name="keywords" content="Loizos Pelecanos, University of Bath, civil engineering, computational mechanics, computational geotechnics, structural dynamics, earthquake engineering, soil-structure interaction, offshore engineering, marine infrastructure, finite element analysis, structural health monitoring, fibre optic sensing, AI engineering" />
   <meta name="author" content="Loizos Pelecanos" />
-  <meta property="og:title" content="Loizos Pelecanos | Civil Engineering & Computational Mechanics" />
-  <meta property="og:description" content="Research in computational geotechnics, structural dynamics, earthquake engineering, offshore and marine infrastructure, monitoring and AI/ML." />
-  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0c2f4b" />
+  <meta property="og:title" content="Loizos Pelecanos | Computational Civil Engineering" />
+  <meta property="og:description" content="Research across computational geotechnics, structural dynamics, earthquake engineering, offshore and marine infrastructure, sensing and AI/ML." />
+  <meta property="og:type" content="profile" />
+  <meta property="og:url" content="https://lpelecanos.github.io/" />
+  <link rel="canonical" href="https://lpelecanos.github.io/" />
   <link rel="stylesheet" href="assets/styles.css" />
   <script type="application/ld+json">
   {
@@ -17,10 +20,12 @@
     "@type": "Person",
     "name": "Loizos Pelecanos",
     "honorificPrefix": "Dr",
-    "jobTitle": "Honorary Lecturer",
+    "url": "https://lpelecanos.github.io/",
+    "jobTitle": ["Civil Engineer", "Honorary Lecturer"],
     "affiliation": {
       "@type": "CollegeOrUniversity",
-      "name": "University of Bath"
+      "name": "University of Bath",
+      "url": "https://www.bath.ac.uk/"
     },
     "alumniOf": {
       "@type": "CollegeOrUniversity",
@@ -44,7 +49,8 @@
       "Offshore engineering",
       "Marine infrastructure",
       "Structural health monitoring",
-      "Fibre-optic sensing",
+      "Distributed fibre-optic sensing",
+      "Structural design optimisation",
       "Artificial intelligence in engineering"
     ]
   }
@@ -53,168 +59,237 @@
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="site-header">
+  <header class="site-header" id="top">
     <div class="container nav-wrap">
       <a class="brand" href="#top" aria-label="Loizos Pelecanos home">
         <span class="brand-mark" aria-hidden="true">LP</span>
-        <span>Loizos Pelecanos</span>
+        <span class="brand-copy"><strong>Loizos Pelecanos</strong><small>Computational Civil Engineering</small></span>
       </a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
       <nav id="site-nav" class="nav" aria-label="Primary navigation">
         <a href="#about">About</a>
         <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
         <a href="#publications">Publications</a>
-        <a href="#teaching">Teaching</a>
-        <a href="#links">Profiles</a>
-        <a href="#contact">Contact</a>
+        <a href="#academic">Academic</a>
+        <a href="#profiles">Profiles</a>
+        <a class="nav-contact" href="#contact">Contact</a>
       </nav>
     </div>
   </header>
 
   <main id="main">
-    <section class="hero" id="top">
+    <section class="hero">
       <div class="container hero-grid">
-        <div>
-          <p class="eyebrow">Civil Engineering · Computational Mechanics · Structural Dynamics</p>
-          <h1>Dr Loizos Pelecanos</h1>
-          <p class="hero-role">Honorary Lecturer, Department of Architecture &amp; Civil Engineering<br />University of Bath</p>
-          <p class="hero-copy">Research at the intersection of computational geotechnics, earthquake engineering, soil–structure interaction, offshore and marine infrastructure, structural health monitoring, optimisation, and AI/ML for engineering.</p>
+        <div class="hero-main">
+          <p class="eyebrow">Computational mechanics · Geotechnics · Structural dynamics</p>
+          <h1>Engineering insight from <em>mechanics, computation and data.</em></h1>
+          <p class="hero-name">Dr Loizos Pelecanos <span>MEng (Hons) ACGI PhD DIC FHEA MIMarEST</span></p>
+          <p class="hero-role">Honorary Lecturer, University of Bath · Civil Engineer &amp; Researcher</p>
+          <p class="hero-copy">Research spanning earthquake engineering, soil–structure interaction, offshore and marine infrastructure, structural health monitoring, optimisation and AI/ML — with a common focus on rigorous computational models connected to real engineering behaviour.</p>
           <div class="hero-actions">
             <a class="button primary" href="#research">Explore research</a>
-            <a class="button secondary" href="https://researchportal.bath.ac.uk/en/persons/loizos-pelecanos/" target="_blank" rel="noopener">Bath research portal ↗</a>
+            <a class="button secondary" href="https://researchportal.bath.ac.uk/en/persons/loizos-pelecanos/" target="_blank" rel="noopener">Bath research profile ↗</a>
           </div>
-          <div class="hero-meta" aria-label="Academic identifiers">
-            <a href="https://orcid.org/0000-0001-6183-1439" target="_blank" rel="noopener">ORCID 0000-0001-6183-1439</a>
-            <span aria-hidden="true">·</span>
-            <a href="https://scholar.google.com/citations?user=rxJERUEAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+          <div class="quick-links" aria-label="Key academic profiles">
+            <a href="https://scholar.google.com/citations?user=rxJERUEAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar ↗</a>
+            <a href="https://orcid.org/0000-0001-6183-1439" target="_blank" rel="noopener">ORCID ↗</a>
+            <a href="https://www.youtube.com/@LoizosPelecanosEngineering" target="_blank" rel="noopener">YouTube ↗</a>
           </div>
         </div>
-        <aside class="hero-card" aria-label="Research snapshot">
-          <div class="portrait-placeholder" aria-label="Profile photograph placeholder">LP</div>
-          <p class="small-label">Research expertise</p>
-          <ul class="compact-list">
-            <li>Computational mechanics &amp; finite elements</li>
-            <li>Earthquake engineering &amp; structural dynamics</li>
-            <li>Soil–structure interaction</li>
-            <li>Offshore engineering &amp; marine infrastructure</li>
-            <li>Structural health monitoring &amp; fibre-optic sensing</li>
-            <li>Optimisation and AI/ML in engineering</li>
-          </ul>
+
+        <aside class="hero-panel" aria-label="Profile overview">
+          <div class="portrait-shell">
+            <div class="portrait-placeholder" aria-label="Profile photograph placeholder">
+              <span>LP</span>
+              <small>Add portrait</small>
+            </div>
+          </div>
+          <div class="profile-summary">
+            <p class="small-label">Research profile</p>
+            <div class="stat"><strong>90+</strong><span>research outputs</span></div>
+            <div class="stat"><strong>2017–</strong><span>Editorial Board, Computers &amp; Geotechnics</span></div>
+            <div class="stat"><strong>2026–</strong><span>Editorial Board, Scientific Reports</span></div>
+          </div>
         </aside>
+      </div>
+      <div class="container hero-ribbon" aria-label="Research areas">
+        <span>Earthquake Engineering</span><span>Soil–Structure Interaction</span><span>Offshore &amp; Marine</span><span>Monitoring &amp; Sensing</span><span>Optimisation</span><span>AI/ML</span>
       </div>
     </section>
 
     <section class="section" id="about">
-      <div class="container two-col">
+      <div class="container split-intro">
         <div>
           <p class="section-kicker">About</p>
-          <h2>Computational engineering across ground, structures and infrastructure</h2>
+          <h2>Computational civil engineering across ground, structures and infrastructure.</h2>
         </div>
-        <div class="prose">
-          <p>Loizos Pelecanos is an Honorary Lecturer in the Department of Architecture &amp; Civil Engineering at the University of Bath. His work combines numerical modelling, dynamics, sensing, optimisation and data-driven methods to understand and improve the performance of civil infrastructure.</p>
-          <p>He graduated from Imperial College London with an MEng in Civil Engineering and a PhD in Computational Earthquake Engineering, before conducting postdoctoral research at the University of Cambridge Centre for Smart Infrastructure and Construction.</p>
-          <p>His current research interests span geotechnical and structural earthquake engineering, nonlinear soil–structure interaction, offshore and marine infrastructure, monitoring and sensing, low-carbon foundations, and AI/ML-enabled computational engineering.</p>
+        <div class="prose large-prose">
+          <p>Loizos Pelecanos is a civil engineer and academic researcher specialising in computational mechanics and dynamics. He is an Honorary Lecturer in the Department of Architecture &amp; Civil Engineering at the University of Bath.</p>
+          <p>He studied Civil Engineering at Imperial College London, where he later completed a PhD in Computational Earthquake Engineering. He subsequently worked at the University of Cambridge Centre for Smart Infrastructure and Construction, combining advanced finite-element analysis with distributed fibre-optic sensing and field monitoring.</p>
+          <p>His research now connects nonlinear numerical modelling, experimental and field evidence, optimisation and data-driven methods across geotechnical, structural, offshore and marine engineering.</p>
         </div>
       </div>
     </section>
 
-    <section class="section muted" id="research">
+    <section class="section dark-section" id="research">
       <div class="container">
-        <p class="section-kicker">Research</p>
-        <h2>Core themes</h2>
-        <div class="card-grid">
-          <article class="card"><h3>Computational Geotechnics</h3><p>Finite-element modelling, nonlinear soil behaviour, piles, foundations, dam engineering and advanced soil–structure interaction.</p></article>
-          <article class="card"><h3>Earthquake Engineering</h3><p>Seismic response of dams, buildings and infrastructure, dynamic interaction, nonlinear time-history analysis and response prediction.</p></article>
-          <article class="card"><h3>Offshore &amp; Marine Infrastructure</h3><p>Offshore foundations, buried pipelines, wind-energy infrastructure, wave–structure interaction and computational marine engineering.</p></article>
-          <article class="card"><h3>Monitoring &amp; Sensing</h3><p>Structural health monitoring, distributed fibre-optic sensing, field measurements, inverse analysis and model updating.</p></article>
-          <article class="card"><h3>Optimisation &amp; Sustainability</h3><p>Engineering design optimisation, low-carbon foundations, reliability and computational methods for sustainable infrastructure.</p></article>
-          <article class="card"><h3>AI/ML in Engineering</h3><p>Surrogate modelling, data-driven prediction, inverse problems and machine learning integrated with computational mechanics.</p></article>
+        <div class="section-heading-row light">
+          <div>
+            <p class="section-kicker">Research</p>
+            <h2>Six connected research themes.</h2>
+          </div>
+          <p class="section-lead">From fundamental mechanics to monitoring, model updating and AI-enabled engineering.</p>
+        </div>
+        <div class="research-grid">
+          <article class="research-card"><span>01</span><h3>Computational Geotechnics</h3><p>Nonlinear finite-element analysis of soils, foundations, piles, dams and complex soil–structure interaction.</p></article>
+          <article class="research-card"><span>02</span><h3>Earthquake Engineering</h3><p>Dynamic response of dams, buildings and infrastructure; nonlinear time-history analysis; seismic assessment and model validation.</p></article>
+          <article class="research-card"><span>03</span><h3>Offshore &amp; Marine Infrastructure</h3><p>Monopile foundations, cyclic soil response, wave–structure interaction, buried pipelines and computational marine engineering.</p></article>
+          <article class="research-card"><span>04</span><h3>Monitoring &amp; Sensing</h3><p>Distributed fibre-optic sensing, structural health monitoring, ambient vibration testing, inverse analysis and model updating.</p></article>
+          <article class="research-card"><span>05</span><h3>Optimisation &amp; Net Zero</h3><p>Structural and foundation design optimisation, embodied carbon, reliability and computational routes to lower-carbon infrastructure.</p></article>
+          <article class="research-card"><span>06</span><h3>AI/ML for Engineering</h3><p>Surrogate models, inverse problems, physics-informed approaches and machine learning integrated with computational mechanics.</p></article>
         </div>
       </div>
     </section>
 
-    <section class="section" id="publications">
+    <section class="section" id="projects">
       <div class="container">
         <div class="section-heading-row">
           <div>
-            <p class="section-kicker">Publications</p>
-            <h2>Recent research</h2>
+            <p class="section-kicker">Research programmes</p>
+            <h2>Current and recent directions.</h2>
           </div>
-          <a class="text-link" href="https://researchportal.bath.ac.uk/en/persons/loizos-pelecanos/" target="_blank" rel="noopener">View all research output ↗</a>
+          <a class="text-link" href="https://researchportal.bath.ac.uk/en/persons/loizos-pelecanos/" target="_blank" rel="noopener">View Bath projects ↗</a>
         </div>
+        <div class="project-grid">
+          <article class="project feature-project">
+            <p class="project-label">Offshore wind</p>
+            <h3>Nonlinear soil–foundation–structure interaction</h3>
+            <p>Mechanics-based models for monopile gapping, cyclic ratcheting and long-term dynamic response, with implications for natural frequency, serviceability and offshore wind design.</p>
+            <div class="project-tags"><span>Monopiles</span><span>p–y modelling</span><span>Cyclic response</span></div>
+          </article>
+          <article class="project">
+            <p class="project-label">Seismic infrastructure</p>
+            <h3>Earthquake response, monitoring and model updating</h3>
+            <p>Seismic analysis of dams, buildings, bridges and critical infrastructure, bringing together nonlinear dynamics, monitoring and FE-model correlation.</p>
+            <div class="project-tags"><span>Dams</span><span>Bridges</span><span>SHM</span></div>
+          </article>
+          <article class="project">
+            <p class="project-label">Sustainable foundations</p>
+            <h3>Low-carbon piles and data-informed design</h3>
+            <p>Optimisation of foundation systems for embodied carbon and cost, including sensing-enabled inference of pile response and capacity.</p>
+            <div class="project-tags"><span>Net zero</span><span>DFOS</span><span>Optimisation</span></div>
+          </article>
+          <article class="project">
+            <p class="project-label">Marine infrastructure</p>
+            <h3>Hydrodynamics, coastal loading and resilience</h3>
+            <p>Computational treatment of hydrodynamic loading and fluid–structure interaction for dams, waterfront structures and marine infrastructure.</p>
+            <div class="project-tags"><span>Hydrodynamics</span><span>Wave loading</span><span>Resilience</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft-section" id="publications">
+      <div class="container">
+        <div class="section-heading-row">
+          <div>
+            <p class="section-kicker">Selected publications</p>
+            <h2>A cross-section of recent and foundational work.</h2>
+          </div>
+          <div class="pub-actions">
+            <a class="text-link" href="https://scholar.google.com/citations?user=rxJERUEAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar ↗</a>
+            <a class="text-link" href="https://researchportal.bath.ac.uk/en/persons/loizos-pelecanos/" target="_blank" rel="noopener">All Bath outputs ↗</a>
+          </div>
+        </div>
+
         <div class="pub-list">
           <article class="publication">
-            <p class="pub-year">2026</p>
-            <div><h3>Inference of pile capacity from distributed strain sensing via PDE-constrained optimization</h3><p>Computers and Geotechnics, 196, 108131.</p></div>
+            <div class="pub-meta"><span>2026</span><small>Computers and Geotechnics</small></div>
+            <div><h3>Inference of pile capacity from distributed strain sensing via PDE-constrained optimization</h3><p>Y. Yang, G. B. Shin, L. Pelecanos, C. C. Wang, L. Luo &amp; K. Soga</p><a href="https://researchportal.bath.ac.uk/en/persons/loizos-pelecanos/" target="_blank" rel="noopener">Research record ↗</a></div>
           </article>
           <article class="publication">
-            <p class="pub-year">2026</p>
-            <div><h3>Comparative evaluation of optimization algorithms for truss shape design</h3><p>Engineering Computations, e-pub ahead of print.</p></div>
+            <div class="pub-meta"><span>2024</span><small>Géotechnique</small></div>
+            <div><h3>A practical two parameter model of pile-soil gapping for prediction of monopile offshore wind turbine dynamics</h3><p>S. Williams, L. Pelecanos &amp; A. Darby</p><a href="https://doi.org/10.1680/jgeot.21.00260" target="_blank" rel="noopener">DOI ↗</a></div>
           </article>
           <article class="publication">
-            <p class="pub-year">2025</p>
-            <div><h3>Optimisation of Embodied Carbon and Construction Cost of Concrete, Steel and Timber Piles</h3><p>Developments in the Built Environment, 22, 100656.</p></div>
+            <div class="pub-meta"><span>2022</span><small>Ocean Engineering</small></div>
+            <div><h3>A Winkler model of monopile ratcheting under long-term dynamic cyclic loading</h3><p>S. A. Williams, L. Pelecanos &amp; A. P. Darby</p><a href="https://doi.org/10.1016/j.oceaneng.2022.112625" target="_blank" rel="noopener">DOI ↗</a></div>
           </article>
-        </div>
-        <div class="profile-buttons">
-          <a class="button secondary" href="https://scholar.google.com/citations?user=rxJERUEAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
-          <a class="button secondary" href="https://orcid.org/0000-0001-6183-1439" target="_blank" rel="noopener">ORCID</a>
-          <a class="button secondary" href="https://www.researchgate.net/profile/Loizos-Pelecanos" target="_blank" rel="noopener">ResearchGate</a>
+          <article class="publication">
+            <div class="pub-meta"><span>2015</span><small>Géotechnique</small></div>
+            <div><h3>A case study on the seismic performance of earth dams</h3><p>L. Pelecanos, S. Kontoe &amp; L. Zdravkovic</p><a href="https://doi.org/10.1680/jgeot.SIP.15.P.009" target="_blank" rel="noopener">DOI ↗</a></div>
+          </article>
+          <article class="publication">
+            <div class="pub-meta"><span>2013</span><small>Computers and Geotechnics</small></div>
+            <div><h3>Numerical modelling of hydrodynamic pressures on dams</h3><p>L. Pelecanos, S. Kontoe &amp; L. Zdravkovic</p><a href="https://doi.org/10.1016/j.compgeo.2013.04.003" target="_blank" rel="noopener">DOI ↗</a></div>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="section muted" id="teaching">
-      <div class="container two-col">
+    <section class="section" id="academic">
+      <div class="container academic-grid">
         <div>
+          <p class="section-kicker">Academic path</p>
+          <h2>Education, research and academic service.</h2>
+        </div>
+        <div class="timeline-vertical">
+          <article><span>2024–</span><div><h3>Honorary Lecturer</h3><p>Department of Architecture &amp; Civil Engineering, University of Bath</p></div></article>
+          <article><span>2016–2024</span><div><h3>Lecturer / Assistant Professor</h3><p>University of Bath</p></div></article>
+          <article><span>2013–2016</span><div><h3>Postdoctoral Research Associate</h3><p>Centre for Smart Infrastructure and Construction, University of Cambridge</p></div></article>
+          <article><span>2013</span><div><h3>PhD · Computational Earthquake Engineering</h3><p>Imperial College London</p></div></article>
+          <article><span>2009</span><div><h3>MEng (Hons) · Civil Engineering</h3><p>Imperial College London</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split-service">
+      <div class="container service-grid">
+        <div class="service-panel">
+          <p class="section-kicker">Academic service</p>
+          <h2>Editorial &amp; professional activity</h2>
+          <div class="service-list">
+            <div><span>2026–</span><p><strong>Editorial Board Member</strong><br />Scientific Reports · Nature Portfolio</p></div>
+            <div><span>2017–</span><p><strong>Editorial Board Member</strong><br />Computers &amp; Geotechnics · Elsevier</p></div>
+            <div><span>2017–</span><p><strong>UK Representative</strong><br />ICOLD Technical Committee A · Computational Aspects of Analysis and Design of Dams</p></div>
+          </div>
+        </div>
+        <div class="service-panel teaching-panel">
           <p class="section-kicker">Teaching &amp; supervision</p>
-          <h2>Education through computational and engineering fundamentals</h2>
-        </div>
-        <div class="prose">
-          <p>Teaching interests include finite-element analysis, earthquake engineering, geotechnical engineering, and probabilistic/reliability methods.</p>
-          <p>Doctoral supervision interests include computational mechanics, finite-element analysis, earthquake engineering, soil–structure interaction, structural and soil dynamics, offshore engineering, and marine structures.</p>
-          <a class="text-link" href="https://researchportal.bath.ac.uk/en/persons/loizos-pelecanos/" target="_blank" rel="noopener">Doctoral supervision information ↗</a>
+          <h2>Developing computational engineering judgement</h2>
+          <p>Teaching and doctoral supervision interests include finite-element analysis, earthquake engineering, geotechnical engineering, structural and soil dynamics, offshore engineering, marine structures, and probabilistic/reliability methods.</p>
+          <a class="text-link" href="https://www.youtube.com/@LoizosPelecanosEngineering" target="_blank" rel="noopener">Engineering teaching on YouTube ↗</a>
         </div>
       </div>
     </section>
 
-    <section class="section" id="service">
+    <section class="section soft-section" id="profiles">
       <div class="container">
-        <p class="section-kicker">Academic service</p>
-        <h2>Editorial and professional activity</h2>
-        <div class="timeline">
-          <div><span>2026–</span><strong>Editorial Board Member</strong><p>Scientific Reports, Nature Portfolio</p></div>
-          <div><span>2017–</span><strong>Editorial Board Member</strong><p>Computers &amp; Geotechnics</p></div>
-          <div><span>2017–</span><strong>UK Representative</strong><p>ICOLD Technical Committee A — Computational Aspects of Analysis and Design of Dams</p></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section muted" id="links">
-      <div class="container">
-        <p class="section-kicker">Profiles</p>
-        <h2>Academic and professional links</h2>
+        <p class="section-kicker">Profiles &amp; media</p>
+        <h2>Academic record across the web.</h2>
         <div class="link-grid">
-          <a href="https://researchportal.bath.ac.uk/en/persons/loizos-pelecanos/" target="_blank" rel="noopener"><strong>University of Bath</strong><span>Research portal</span></a>
-          <a href="https://orcid.org/0000-0001-6183-1439" target="_blank" rel="noopener"><strong>ORCID</strong><span>Research identifier</span></a>
-          <a href="https://scholar.google.com/citations?user=rxJERUEAAAAJ&hl=en" target="_blank" rel="noopener"><strong>Google Scholar</strong><span>Citations &amp; publications</span></a>
-          <a href="https://www.researchgate.net/profile/Loizos-Pelecanos" target="_blank" rel="noopener"><strong>ResearchGate</strong><span>Research profile</span></a>
-          <a href="https://uk.linkedin.com/in/loizos-pelecanos" target="_blank" rel="noopener"><strong>LinkedIn</strong><span>Professional profile</span></a>
-          <a href="https://www.youtube.com/@LoizosPelecanosEngineering" target="_blank" rel="noopener"><strong>YouTube</strong><span>Engineering channel</span></a>
-          <a href="https://bath.academia.edu/LoizosPelecanos" target="_blank" rel="noopener"><strong>Academia.edu</strong><span>Academic profile</span></a>
+          <a href="https://researchportal.bath.ac.uk/en/persons/loizos-pelecanos/" target="_blank" rel="noopener"><span class="link-icon">B</span><div><strong>University of Bath</strong><small>Research portal</small></div><b>↗</b></a>
+          <a href="https://scholar.google.com/citations?user=rxJERUEAAAAJ&hl=en" target="_blank" rel="noopener"><span class="link-icon">G</span><div><strong>Google Scholar</strong><small>Publications &amp; citations</small></div><b>↗</b></a>
+          <a href="https://orcid.org/0000-0001-6183-1439" target="_blank" rel="noopener"><span class="link-icon">O</span><div><strong>ORCID</strong><small>0000-0001-6183-1439</small></div><b>↗</b></a>
+          <a href="https://www.researchgate.net/profile/Loizos-Pelecanos" target="_blank" rel="noopener"><span class="link-icon">R</span><div><strong>ResearchGate</strong><small>Research profile</small></div><b>↗</b></a>
+          <a href="https://uk.linkedin.com/in/loizos-pelecanos" target="_blank" rel="noopener"><span class="link-icon">in</span><div><strong>LinkedIn</strong><small>Professional profile</small></div><b>↗</b></a>
+          <a href="https://www.youtube.com/@LoizosPelecanosEngineering" target="_blank" rel="noopener"><span class="link-icon">▶</span><div><strong>YouTube</strong><small>Loizos Pelecanos Engineering</small></div><b>↗</b></a>
+          <a href="https://bath.academia.edu/LoizosPelecanos" target="_blank" rel="noopener"><span class="link-icon">A</span><div><strong>Academia.edu</strong><small>Academic profile</small></div><b>↗</b></a>
         </div>
       </div>
     </section>
 
     <section class="section contact" id="contact">
-      <div class="container contact-inner">
+      <div class="container contact-grid">
         <div>
           <p class="section-kicker">Contact</p>
-          <h2>Research collaboration, doctoral supervision and academic enquiries</h2>
+          <h2>Research collaboration, supervision and academic enquiries.</h2>
+          <p>For research collaboration and academic enquiries, email Loizos or connect through the profiles below.</p>
         </div>
         <div class="contact-actions">
-          <a class="button primary" href="mailto:L.Pelecanos@bath.ac.uk">L.Pelecanos@bath.ac.uk</a>
-          <a class="button secondary" href="https://uk.linkedin.com/in/loizos-pelecanos" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a class="button light-button" href="mailto:L.Pelecanos@bath.ac.uk">L.Pelecanos@bath.ac.uk</a>
+          <a class="button outline-light" href="https://uk.linkedin.com/in/loizos-pelecanos" target="_blank" rel="noopener">LinkedIn ↗</a>
         </div>
       </div>
     </section>
@@ -224,6 +299,7 @@
     <div class="container footer-wrap">
       <p>© <span id="year"></span> Loizos Pelecanos.</p>
       <p>Independent academic website · University of Bath affiliation linked above.</p>
+      <a href="#top">Back to top ↑</a>
     </div>
   </footer>
 

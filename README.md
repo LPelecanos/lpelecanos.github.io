@@ -1,53 +1,41 @@
-# Loizos Pelecanos academic website
+# Loizos Pelecanos — Academic Website v2
 
-A lightweight static academic site designed for GitHub Pages. No build system is required.
+Live target: https://lpelecanos.github.io/
 
-## Recommended deployment
+## Deploy on GitHub Pages
 
-1. Create a GitHub account if needed.
-2. Create a repository named `<your-github-username>.github.io`.
-3. Upload the contents of this folder to the repository root.
-4. In GitHub: **Settings → Pages**, publish from the main branch/root if it is not enabled automatically.
-5. The site will appear at `https://<your-github-username>.github.io/`.
+Upload these items to the root of the `LPelecanos.github.io` repository, replacing the previous versions:
 
-## Custom domain
+- `index.html`
+- `assets/styles.css`
+- `assets/script.js`
+- `README.md` (optional but recommended)
 
-A personal domain such as `loizospelecanos.com` or `loizospelecanos.org` can later point to GitHub Pages. Check availability before purchase. In GitHub Pages settings, add the chosen custom domain and verify it in your GitHub account.
+The repository should look like:
 
-## Before publishing
-
-- Replace the circular `LP` placeholder in `index.html` with a preferred professional headshot if desired.
-- Check the current role/affiliation wording.
-- Add a PDF CV and a `CV` navigation link if desired.
-- Curate 6–10 flagship publications rather than trying to reproduce the full Scholar list.
-- Add major funded projects, PhD students/alumni and keynote/lecture material if desired.
-- Add a custom-domain URL to the OpenGraph and structured-data metadata once the domain is known.
-
-## Easy photo replacement
-
-Replace:
-
-```html
-<div class="portrait-placeholder" aria-label="Profile photograph placeholder">LP</div>
+```text
+LPelecanos.github.io/
+├── index.html
+├── README.md
+└── assets/
+    ├── styles.css
+    └── script.js
 ```
 
-with:
+GitHub Pages should remain configured as:
 
-```html
-<img class="profile-photo" src="assets/loizos-pelecanos.jpg" alt="Dr Loizos Pelecanos" />
-```
+- Source: Deploy from a branch
+- Branch: `main`
+- Folder: `/ (root)`
 
-and add this rule to `assets/styles.css`:
+## Next customisation
 
-```css
-.profile-photo { width: 140px; height: 140px; object-fit: cover; border-radius: 50%; margin-bottom: 26px; }
-```
+The hero currently uses a deliberate `LP / Add portrait` placeholder. Replace this with a professional portrait once a preferred image is supplied.
 
-## SEO
+A future v3 can add:
 
-The homepage already includes:
-- descriptive page title and metadata;
-- `Person` schema.org structured data;
-- links to Bath, ORCID, Scholar, ResearchGate, LinkedIn, YouTube and Academia.edu;
-- research keywords including University of Bath / Loizos Pelecanos.
-
+- downloadable CV PDF
+- dedicated publication/project pages
+- research figures and project imagery
+- talks/media page
+- custom domain (e.g. loizospelecanos.com)
